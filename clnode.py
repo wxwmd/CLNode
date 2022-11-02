@@ -13,7 +13,7 @@ import argparse
 
 parser = argparse.ArgumentParser(description="progrom description")
 parser.add_argument('--percent', default=2)
-parser.add_argument('--lam', default=0.75)
+parser.add_argument('--lam', default=0.25)
 parser.add_argument('--T', default=50)
 parser.add_argument('--scheduler', default='geom')
 args = parser.parse_args()
