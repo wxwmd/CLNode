@@ -1,0 +1,8 @@
+*.pth
+data/Reddit2/processed/data.pt
+*.pyc
+__pycache__/SGC.cpython-38.pyc
+data/Citeseer/Citeseer/raw/ind.citeseer.allx
+*.npy
+data/Flickr/raw/feats.npy
+
