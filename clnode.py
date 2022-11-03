@@ -22,7 +22,7 @@ T = float(args.T)
 scheduler = args.scheduler
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-dataset = Planetoid(root='./data/Cora', name='Cora')
+dataset = Planetoid(root='./data', name='Cora')
 data = dataset[0].to(device)
 data.train_id = data.train_mask.nonzero().squeeze(dim=1)
 
